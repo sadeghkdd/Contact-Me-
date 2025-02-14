@@ -3,12 +3,6 @@ from streamlit_javascript import st_javascript
 
 width = st_javascript("window.innerWidth")
 
-if width:
-    if width < 768:
-        st.write("📱 نمایش در موبایل")
-    else:
-        st.write("💻 نمایش در دسکتاپ")
-
 st.markdown(
     """
     <style>
